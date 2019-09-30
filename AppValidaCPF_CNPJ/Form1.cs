@@ -97,11 +97,11 @@ namespace AppValidaCPF_CNPJ
 
                 if (ic_status1==true && ic_status2==true)
                 {
-                    MessageBox.Show("CPF valido.", "Informação de validação.");
+                    MessageBox.Show("CPF é válido.", "Informação de validação.");
                 }
                 else if (ic_status1 == false && ic_status2 == false)
                 {
-                    MessageBox.Show("CPF inválido.", "Informação de validação.");
+                    MessageBox.Show("CPF é inválido.", "Informação de validação.");
                 }
 
                 
